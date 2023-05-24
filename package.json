@@ -10,8 +10,7 @@
   "scripts": {
         "pre-deploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "install": "npm install",
-    "start":"node index.js",
+    "start":"npm && node index.js",
     "build":"npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
  
