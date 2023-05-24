@@ -8,9 +8,7 @@
   "description": "weather API",
   "main": "index.js",
   "scripts": {
-        "pre-deploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start":"npm && node index.js",
+    "start":"npm install && node index.js",
     "build":"npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
  
